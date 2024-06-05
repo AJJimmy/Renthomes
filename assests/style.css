@@ -1,0 +1,398 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
+/* Home section */
+#hero{
+    height: 100vh;
+}
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+    font-weight: 600;
+    background: #fcfcfc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+.nav-key{
+    text-decoration: none;
+    color: rgb(6, 53, 6);
+}
+.nav-key:hover{
+    text-decoration: underline;
+}
+nav ul li{ 
+    list-style: none;
+    gap: 40px;
+    padding-right: 40px;
+}
+.burger-menu{
+    color: rgb(6, 53, 6);
+    font-size: 30px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+h5{
+    padding-left: 40px;
+    color: #316531;
+}
+#rentlogo{
+    position: relative;
+    left: -3px;
+    top: 5px;
+    filter: hue-rotate(34deg);
+}
+#bold{
+    color: rgb(6, 53, 6);
+}
+#home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#intro{
+    margin-left: 120px;
+    margin-top: 70px;
+}
+#home1{
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+    margin-right: 120px;
+}
+h2{
+    font-family: "Cormorant Garamond", "Lora";
+    font-size: 55px;
+    color: rgb(6, 53, 6);
+}
+.home-about-writeup{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin-top: -30px;
+}
+#home-buttons{
+    display: flex;
+    flex-direction: row;
+}
+#button1{
+    background: rgb(6, 53, 6);
+    color: white;
+    border-radius: 20px;
+    margin-right: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#button2{
+    background: white;
+    color: rgb(6, 53, 6);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid rgb(6, 53, 6);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#button2:hover{
+background: rgb(6, 53, 6);
+color: white;
+}
+
+/* About section */
+#about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+#home2{
+    width: 400px;
+    height: 300px;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+#about-intro{
+    margin-top: -70px;
+}
+#button3{
+    background: rgb(6, 53, 6);
+    color: white;
+    border-radius: 20px;
+    margin-right: 5px;
+    padding: 10px 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Services section */
+h3{
+    font-family: "Cormorant Garamond", "Lora";
+    font-size: 40px;
+    color: rgb(6, 53, 6);
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+#service-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#service-info1, #service-info2, #service-info3{
+    text-align: center;
+    margin: 30px 0px 0px 40px;
+    border: none;
+    background: rgb(6, 53, 6);
+    border-radius: 10px;
+    padding: 20px 15px;
+    color: white;
+}
+.service-img{
+    filter: brightness(0) invert(1);
+}
+
+/* Reviews section */
+#reviews{
+    margin-top: 100px;
+}
+#reviews-intro{
+    text-align: center;
+}
+#reviews-intro-p{
+    margin-top: -30px;
+}
+#users{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 100px 0px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.user{
+    background: rgb(211, 209, 209);
+    border: none;
+    border-radius: 50%;
+}
+#user-1, #user-2, #user-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgb(6, 53, 6);
+    border-radius: 5px 50px;
+    font-size: small;
+    padding: 15px 25px;
+}
+
+/* Footer section */
+#footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 100px 0px 100px;
+}
+h6{
+    font-size: medium;
+    color: rgb(6, 53, 6);
+}
+#first-info{
+    margin-top: 20px;
+}
+#footer2{
+    display: flex;
+    flex-direction: column;
+}
+#socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social-link{
+    margin-right: 20px;
+}
+.social-link #active img{
+    background-color: rgb(6, 53, 6);
+}
+.icon{
+    border: 1px solid rgb(6, 53, 6);
+    padding: 10px;
+    border-radius: 40%;
+}
+.icon:hover{
+    background: #316531;
+    color: white;
+}
+#copyright{
+    margin: auto;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    nav ul{
+        position: fixed;
+        background-color: rgb(6, 53, 6);
+        top: 34px;
+        right: 5px;
+        width: 100%;
+        height: 5%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+    }
+    nav ul li{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: -10px;
+    }
+    .nav-key{
+        color: #fcfcfc;
+        
+    }
+    .burger-menu {
+        display: block;
+        font-size: 30px;
+    }
+    nav ul.show{
+        transform: translateX(0);
+    }
+    h5{
+        padding-left: 10px;
+    }
+    #rentlogo{
+        right: -95px;
+    }
+    #home{
+      display: flex;
+      flex-direction: column; 
+    }
+    #intro{
+        margin-top: 70px;
+        margin-left: 30px;
+    }
+    #intro h2{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    #home-img{
+        width: 300px;
+        height: 300px;
+        margin-left: 120px;
+    }
+    #home-buttons{
+        margin-top: 30px;
+    }
+    .home-about-writeup{
+        width: 90%;
+        margin-top: 10px;
+        line-height: 20px;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;    
+    }
+    #about-img{
+        width: 400px;
+        height: 300px;
+    }
+    #about-intro{
+        margin: 10px 30px;
+    }
+    #service-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #service-info1, #service-info2 {
+        padding: 20px 30px;
+    }
+    #service-info3{
+        padding: 30px 45px;
+    }
+    #users{
+        margin: 0px 30px 0px 30px;
+    }
+    #user-1, #user-2{
+        margin-right: 20px;
+    }
+    #footer1{
+        margin: 70px 70px 0px 70px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    nav ul li{
+      margin-right: -60px;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+    #home1{
+        width: 250px;
+        height: 250px;
+        margin-left: -30px;
+    }
+    #intro{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    h2, h3{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    #home2{
+       width: 250px;
+       height: 200px; 
+       margin-top: 70px;
+       margin-left: 70px;
+    }
+    #service-intro{
+        text-align: center;
+    }
+    #service-info1, #service-info2{
+        padding: 5px 5px;
+        margin-left: -10px;
+    }
+    #service-info3{
+        padding: 10px 15px;
+        margin-left: -10px;
+    }
+    #users{
+        display: flex;
+        flex-direction: column;
+    }
+    #user-1, #user-2, #user-3{
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+    #footer1{
+       display: flex;
+       flex-direction: column;
+    }
+    .part1, .part2{
+        display: flex;
+        justify-content: space-between;
+    }
+}

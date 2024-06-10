@@ -249,126 +249,105 @@ h6{
 
 /* Media Queries */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+    html{
+        overflow-x: hidden;
+    }
     nav{
-       justify-content: space-evenly;
+        justify-content: space-around;
     }
-
     h5{
-       left: -170px;
-    }
-    #rentlogo{
-        left: 0px;
+        left: -170px;
     }
     nav ul{
         position: fixed;
         flex-direction: row;
-        top: 37px;
-        right: 1px;
+        top: 35px;
+        right: 0;
         width: 100%;
-        height: 5%;
+        height: 5vh;
         text-align: center;
-        transform: translateX(120%);
+        transform: translateX(100%);
         transition: transform 0.5s ease-in;
         background: rgb(6, 53, 6);
+        z-index: 1;
     }
-
     nav ul li{
-        margin-top: 17px;
-        margin-left: 7px;
-        margin-right: -20px;
-        gap: 0;
+        margin-top: 15px;
+        margin-left: 30px;
     }
-
     .nav-key{
         color: #fcfcfc;
     }
-
-    .nav-key:hover{
-        text-decoration: underline;
-    }
-
     .burger-menu{
         display: block;
         margin-top: 15px;
     }
-
     nav ul.show{
         transform: translateX(0);
     }
-
     #home{
         flex-direction: column;
-        gap: 0;
-    }
-    
-    #home1{
-        height: 300px;
-        width: 300px;
-        margin-top: 30px;
-        margin-left: 100px;
-    }
-
-    #intro{
-        margin-top: 40px;
-        margin-left: 15px;
-        width: 60%;
-    }
-
-    h2{
-        font-size: 30px;
-    }
-    
-    .home-about-writeup{
-        margin-top: 20px;
-        width: 30%;
-    }
-
-    #about{
-        flex-direction: column;
-        margin-top: -20px;
-    }
-
-    #home2{
-        width: 300px;
-        height: 200px;
-        margin-left: 120px;
-        margin-right: -80px;
-        margin-top: 70px;
-    }
-
-    #about-intro{
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-
-    h3{
-        font-size: 20px;
-    }
-
-    #service-container{
-        flex-direction: column;
-    }
-
-    #service-info1, #service-info2, #service-info3{
-        padding: 5px 5px;
-       
-    }
-
-    #users{
-        flex-direction: column;
-        margin: 0px;
-        justify-content: center;
         align-items: center;
     }
-
-    #user-1, #user-2, #user-3{
-        padding: -10px -20px;
-        margin-bottom: 20px;
+    #home1{
+        width: 80%;
+        height: auto;
+        margin-left: 50px;
     }
-
-    #part1{
+    #intro{
+        margin: 20px;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .home-about-writeup{
+        width: 100%;
+        text-align: center;
+    }
+    #home-buttons{
+        margin-top: 30px;
+        justify-content: center;
+    }
+    #about{
         flex-direction: column;
+        align-items: center;
+    }
+    #home2{
+        width: 60%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+    #about-intro{
+        text-align: center;
+        margin: 20px;
+    }
+    #service-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    #service-info1,
+    #service-info2,
+    #service-info3 {
+        width: 80%;
+        margin: 10px 0;
+    }
+    #users{
+        flex-direction: column;
+        align-items: center;
+    }
+    #user-1,
+    #user-2,
+    #user-3{
+        width: 80%;
+        margin-top: 30px;
+    }
+    #footer1{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -376,26 +355,22 @@ h6{
     h5{
         left: -80px;
     }
-    #rentlogo{
-        left: -3px;
-    }
     nav ul li{
-        margin-top: 17px;
-        margin-left: 7px;
-        margin-right: -70px;
+        margin-top: 15px;
+        margin-right: -60px;
     }
     .home-about-writeup{
-        margin-top: 20px;
-        width: 70%;
+        width: 100%;
+        text-align: center;
     }
     #home-buttons{
         margin-top: 30px;
     }
-    #home1{
-        margin-left: 70px;
+    #home1 {
+        margin-left: 50px;
     }
     #home2{
-        margin-left: 40px;
+        margin-left: 90px;
     }
 }
 
@@ -403,25 +378,18 @@ h6{
     h5{
         left: -80px;
     }
-    #rentlogo{
-        left: -3px;
-    }
     nav ul li{
-        margin-top: 17px;
-        margin-left: 10px;
-        margin-right: -75px;
+        margin-top: 10px;
+        padding-right: 0px;
     }
     .home-about-writeup{
-        margin-top: 20px;
-        width: 70%;
+        width: 80%;
+        text-align: center;
     }
     #home-buttons{
-        margin-top: 30px;
+        margin-top: 20px;
     }
-    #home1{
-        margin-left: 70px;
-    }
-    #home2{
-        margin-left: 70px;
+    #home1, #home2{
+        margin-left: 0;
     }
 }

@@ -385,7 +385,8 @@ h6{
     }
     nav ul li{
         margin-top: 10px;
-        padding-right: 0px;
+        padding-right: 10px;
+        padding-left: -20px;
     }
     .home-about-writeup{
         width: 100%;
@@ -395,7 +396,7 @@ h6{
         margin-top: 20px;
     }
     #home1 {
-        margin-left: 30px;
+        margin-left: 40px;
     }
     #home2{
         margin-left: 70px;
